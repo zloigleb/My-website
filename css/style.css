@@ -1,0 +1,73 @@
+body {
+    background-color: aquamarine;
+}
+
+.titel {
+    text-align: center;
+padding: 30px;
+font-size: 50px;
+
+
+}
+
+.titel span{
+    color: #ff0000;
+    font-size: 40px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main img{
+max-width: 600px;
+}
+
+.main-info{
+    max-width: 600px;
+}
+
+.main-info ul {
+    padding-left: 17px;
+}
+
+.main-info a {
+    color: rgb(255, 0, 212);
+    font-size: 20px;
+}
+.form{
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input{
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid red;
+}
+
+.form button{
+    background-color: rgb(0, 255, 191);
+    padding: 16px;
+border-radius: 10px;
+font-size: 20px;
+border: 3px solid rebeccapurple;
+color: rgb(255, 0, 128);
+}
+
+.form button:hover{
+    background-color: rgb(0, 255, 191);
+   border: #09ff00 solid green;
+color: azure;
+}
